@@ -18,33 +18,31 @@
               <ul class="nav-container">
                 <h1 class="logo"><a href="#Layout">PoRtfoLiO</a></h1>
               <!-- links -->
-                <li><a href="#"> aaa</a></li>
-                <li><a href="#">bbb</a></li>
-                <li><a href="#">ccc</a></li>
-                <li><a href="#">ddd</a></li>
+                <li><a href="#about"> AboUtE Me</a></li>
+                <li><a href="#exper">ExpERienseS</a></li>
+                <li><a href="#tes">testimonials</a></li>
+                <li><a href="#ex">EXamPLes</a></li>
+                <li><a href="#con">contact Me</a></li>
               </ul>
           </nav>
     </div>
 
       <!-- about me -->
-      <div class="container">
-       
+      <div class="container" id="about">
+  
           <div class="about-me">
-            <p>AboUtE Me</p>
-            <p>xxxxxxxxxxxxxxxxxxxxxxx
-              xxxxxxxxxxxxxxxxxxxxxxxx
-              xxxxxxxxxxxxxxxxxxxxxxxx
-              xxxxxxxxxxxxxxxxxxxxxxxx
-            </p>
+            <p >AboUtE Me</p>
+            <p>I am graduated as a mechanical engineer and have extensive experience in mechanical engineering. Howevser, since I came to Sweden to study in a new field that takes a few years to complete, I decided to choose IT front-end development. I believe it is a good option for rapid education, job opportunities, and contributing to the industry's development. This is because I have always been interested in IT</p>
           </div>
-          <div class="pic-one"><img src="Images/me3.jpg" alt="me" height="200" ></div>
+          <div class="pic-one"><img src="Images/me3.jpg" alt="me"  ></div>
       </div>
   </header>
 
   <!-- main -->
   <main>
     <!--edu and work  -->
-    <div class="container-two">
+    <div class="container-two" id="exper">
+      
           <!-- block one -->
         <div class="block">
             <div class="pic-two"><img src="Images/edu3.jpg" alt="" height="200px"></div>
@@ -60,19 +58,21 @@
           <div class="pic-two"><img src="Images/edu.jpg" alt="" height="200px"></div>
           <div class="written">xxx</div>
         </div>
+        <p>ExpERienseS</p>
     </div>
 
     <!-- testimonials -->
-   <div class="tes">
-      <div class="written-tes">xxxxxxxxxxxxxxxxxxxxxxx
+   <div class="tes" id="tes">
+    
+      <div 
+      class="written-tes">
+      <p>testimonials</p>
+      <p>xxxxxxxxxxxxxxxxxxxxxxx
         xxxxxxxxxxxxxxxxxxxxxxx
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         xxxxxxxxxxxxxxxxxxxxxxx
-        xxxxxxxxxxxxxxxxxxxxxxx
-        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        xxxxxxxxxxxxxxxxxxxxxxx
-        xxxxxxxxxxxxxxxxxxxxxxx
-       
+        x
+      </p>
       </div>
 
       <div class="'pic-three"><img src="Images/robot.webp" alt="" height="390 px"></div>
@@ -81,15 +81,47 @@
 
     <!-- exemple of work -->
     <!-- mabye with pic -->
+    
+  <div class="container-three" id="ex">
+  <div><h3>EXamPLes</h3>
+    <div class="container-three">
+      <!-- EX1 -->
+          <div  class="ex" style="width: 18rem;">
+            <img src="Images/ex1.jpg" class="card-img-top"  alt="" height="150px" width="150px">
+            <div class="card-body">
+              <h5 class="card-title">EXempLes OnE</h5>
+              <a href="https://master--shiny-vacherin-a3c02f.netlify.app/" class="btn btn-primary">To The wEBb</a>
+            </div>
+          </div>
 
+          <!-- EX2 -->
+          <div  class="ex" style="width: 18rem;">
+            <img src="Images/ex2.jpg" class="card-img-top"  alt="" height="150px" width="150px">
+            <div class="card-body">
+              <h5 class="card-title">EXempLes TWo</h5>
+              <a href="https://candid-cocada-3def16.netlify.app/" class="btn btn-primary">To The wEBb</a>
+            </div>
+          </div>
 
-  <div class="container-three">
-   
-        <div class="ex-one"><li>xxx</li></div>
-        <div class="ex-two"><li>xxx</li></div>
-        <div class="ex-three"><li>xxx</li></div>
-        <div class="ex-four"><li>xxx</li></div>
-        
+          <!-- EX3 -->
+          <div  class="ex" style="width: 18rem;">
+            <img src="Images/ex3.jpg" class="card-img-top"  alt="" height="150px" width="150px">
+            <div class="card-body">
+              <h5 class="card-title">EXempLes ThrEE</h5>
+              <a href="https://creative-jelly-eef346.netlify.app/" class="btn btn-primary">To The wEBb</a>
+            </div>
+          </div>
+          
+          <!-- EX4 -->
+          <div  class="ex" style="width: 18rem;">
+            <img src="Images/ex4.jpg" class="card-img-top" alt="" height="150px" width="150px">
+            <div class="card-body">
+              <h5 class="card-title">EXempLes F0urE</h5>
+              <a href="https://luminous-semolina-05cdf7.netlify.app/" class="btn btn-primary">To The wEBb</a>
+            </div>
+          </div>
+      </div>
+    </div> 
     </div>
   </main>
 
@@ -97,16 +129,36 @@
   <!-- contact me -->
   <!-- use icon and border -->
   <footer>
-      <div class="contact">
+    
+      <div class="contact" id="con">
+
+       
+          <img class="pic-four" src="Images/robot2.webp" alt="" height="250px">
         
-        <nav>
-          <ul>
-            <li>aaa</li>
-            <li>bbb</li>
-            <li>ccc</li>
-          </ul>
-        </nav>
-          <img class="pic-four" src="Images/robot2.webp" alt="" height="150px">
+
+        <form class="contact-left" action="https://api.web3forms.com/submit" method="POST"> 
+          <div class="contact-left-title">
+            <h2>ContACt mE HerE</h2>
+            
+          </div>
+          <input type="hidden" name="access_key" value="ab9234e2-0ffd-4142-be27-a026ea2987b6">
+          <input type="text" name="name" id="" placeholder="Your Name" class="contact-input" required>
+
+          <input type="email" name="email" id="" placeholder="Your Email" class="contact-input" required>
+
+          <textarea name="message" placeholder="Your Messege" class="contact-input" required></textarea>
+
+          <button type="submit">SuBMit</button>
+        </form>
+       
+       
+
+
+
+        
+        
+       
+          
      
       </div>
      
