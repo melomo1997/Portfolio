@@ -50,9 +50,16 @@ li{
   flex-direction: row;
   font-family: 'Inconsolata', monospace;
 }
+
+.p-a{
+  font-weight: 600;
+  color: rgba(111, 40, 177, 0.422);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
 .about-me{
   max-width: 600px;
-  font-size: 20px;
+  font-size: 19px;
   margin-left: 50px;
 }
 .pic-one img{
@@ -77,15 +84,20 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Inconsolata', monospace;
-  font-size: 30px;
+  font-size: 15px;
+  height: 620px;
 }
-
+.ex-p{
+  font-size: 15px;
+}
 .written{
+  text-align: center;
+ line-height: 20px;
   max-width: 150px;
-  height: 200px;
+  height: 420px;
   background-color: rgba(184, 25, 184, 0.397);
   margin-bottom: 15px;
-  border-radius:0  0 50%   50%;
+  border-radius:0  0 90px 90px;
   border: dotted 2px rgba(128, 0, 128, 0.274);
 }
 
@@ -95,7 +107,7 @@ li{
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
  
-  width: 150px;
+  width: 156px;
   height: 150px;
  
 }
@@ -112,13 +124,24 @@ li{
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+  align-items: center; /* Align items vertically */
 }
+
 .written-tes {
-  margin-top: 50px;
   margin-left: 50px;
   width: 600px;
   font-family: 'Inconsolata', monospace;
   font-size: 30px;
+}
+
+.pic-three {
+  margin-right: 50px;
+}
+
+.pic-three img {
+  margin: 50px; /* Add margin to the image */
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
 }
 
 
@@ -194,7 +217,7 @@ h3{
   box-sizing: border-box;
 }
 footer{
-  margin: 115px 0;
+  margin: 135px 0;
 }
 
 .contact-left{
