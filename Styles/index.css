@@ -221,7 +221,7 @@ footer{
 }
 
 .pic-four {
-  margin-right: 50px; /* Add this to move the image 50px to the left */
+  margin-right: 50px; 
 }
 
 .contact-left {
@@ -229,7 +229,7 @@ footer{
   flex-direction: column;
   align-items: start;
   gap: 20px;
-  margin-left: 50px; /* Add this to move the form 50px to the right */
+  margin-left: 50px;
 }
 
 .contact-left-title h2 {
